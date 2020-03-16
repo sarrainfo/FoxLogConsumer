@@ -1,0 +1,13 @@
+export const ACCESS_LOG_PATH = "/tmp/access.log";
+export const W3C_FORMAT_REGEX = /^(\S+) (\S+) (\S+) \[([\w:/]+\s[+\-]\d{4})\] "(\S+)\s?(\S+)?\s?(\S+)?" (\d{3}|-) (\d+|-)\s?"?([^"]*)"?\s?"?([^"]*)?"?$/;
+export const DATE_FORMAT_REGEX = /^(([0-9])|([0-2][0-9])|([3][0-1]))\/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\/\d{4}:\d{2}:\d{2}:\d{2} [+-]\d{4}$/; 
+export const GET ='GET';
+export const POST='POST';
+export const PUT='PUT';
+export const HEAD='HEAD';
+export const DELETE='DELETE';
+export const OPTIONS='OPTIONS';
+export const CONNECT='CONNECT';
+export const TRACE = 'TRACE';
+export const PATCH='PATCH';
+export const HTTP_METHODS=[GET,PATCH,POST,PUT,HEAD,DELETE,OPTIONS,CONNECT,TRACE];
